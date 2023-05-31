@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/tab_home"
+        android:icon="@drawable/tab_home_black"
+        android:title="Home"></item>
+
+    <item
+        android:id="@+id/tab_market"
+        android:icon="@drawable/tab_market_black"
+        android:title="Market"></item>
+    <item
+        android:id="@+id/tab_news"
+        android:icon="@drawable/tab_news_black"
+        android:title="News"></item>
+    <item
+        android:id="@+id/tab_profile"
+        android:icon="@drawable/tab_profile_black"
+        android:title="Profile"></item>
+</menu>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:weightSum="3"
+    >
+<Button
+    android:id="@+id/btn_snackbar_cancel"
+    android:layout_width="0dp"
+    android:layout_height="40dp"
+    android:layout_weight="0.6"
+    android:text="Clear"
+    android:textSize="17dp"
+    android:padding="5dp"
+    android:background="@android:color/holo_blue_light"/>
+    <View
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.05"
+        android:background="@color/cardview_dark_background"></View>
+
+        <EditText
+            android:id="@+id/et_snackbar_search"
+            android:layout_width="0dp"
+            android:layout_height="40dp"
+            android:hint="Ex: BTC / LTC / ETH..."
+            android:layout_weight="1.7"
+            android:imeOptions="actionDone"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:padding="5dp"
+            android:background="@color/cardview_dark_background"
+            android:textColor="@android:color/white"
+            android:textSize="18dp"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.05"
+        android:background="@color/cardview_dark_background"></View>
+    <Button
+        android:id="@+id/btn_snackbar_done"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight="0.6"
+        android:text="Done"
+        android:textSize="17dp"
+        android:padding="5dp"
+        android:background="@android:color/holo_blue_light"/>
+   </LinearLayout>

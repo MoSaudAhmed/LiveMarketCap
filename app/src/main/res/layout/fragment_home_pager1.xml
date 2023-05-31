@@ -1,0 +1,82 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00bfff"
+    android:orientation="vertical"
+    android:weightSum="2"
+    tools:context="com.mgdapps.livemarketcap.Home_pager1"
+    >
+
+    <TextView
+        android:id="@+id/tv_pager1_balancesheet"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="View/Edit balance sheet"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:drawablePadding="10dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:drawableRight="@drawable/icon_market_options"
+        android:layout_marginTop="10dp"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_centerInParent="true"
+        android:layout_weight="1"
+ >
+        <TextView
+            android:id="@+id/tv_pager1_balancetitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="Balance: "
+            android:layout_marginLeft="40dp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_pager1_balance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="0.00000000"
+            android:textStyle="bold"
+            android:layout_toRightOf="@id/tv_pager1_balancetitle"
+            android:textColor="@android:color/white"/>
+
+
+        <TextView
+            android:id="@+id/tv_pager1_targetbalancetitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="My target: "
+            android:layout_below="@id/tv_pager1_balancetitle"
+            android:textColor="@android:color/white"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/tv_pager1_targetbalance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="0.0000000"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_below="@id/tv_pager1_balancetitle"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/tv_pager1_targetbalancetitle"
+            android:textColor="@android:color/white"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/popup_market_search"
+        android:title="Search"
+        android:icon="@drawable/icon_search"
+        ></item>
+    <item
+        android:id="@+id/popup_market_default"
+        android:title="Default"></item>
+    <item
+        android:id="@+id/popup_market_refresh"
+        android:title="Refresh"></item>
+    <item
+        android:id="@+id/popup_options_market_price"
+        android:checkable="true"
+        android:title="price in USD"></item>
+    <item
+        android:id="@+id/popup_options_market_percent1"
+        android:checkable="true"
+        android:title="Change % 1hr"></item>
+    <item
+        android:id="@+id/popup_options_market_percent24"
+        android:checkable="true"
+        android:title="Change % 24hrs"></item>
+    <item
+        android:id="@+id/popup_options_market_percent7"
+        android:checkable="true"
+        android:title="Change % 7d"></item>
+</menu>
